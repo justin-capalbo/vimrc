@@ -57,3 +57,7 @@ let g:airline#extensions#tabline#enabled = 1
 
 " Show filename only
 let g:airline#extensions#tabline#fnamemod = ':t'
+
+"================ Ale ===============
+
+let g:ale_echo_msg_format = '%linter% says %s'
