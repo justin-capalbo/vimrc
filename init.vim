@@ -27,7 +27,9 @@ nnoremap <Leader>O O<Esc>
 
 "================ General interface and editing  ===============
 "syntax highlighting
-syntax enable
+if !exists("g:syntax_on")
+  syntax enable
+endif
 
 "set line numbers
 set number
