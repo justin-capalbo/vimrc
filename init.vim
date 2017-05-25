@@ -1,25 +1,24 @@
 execute pathogen#infect()
-
 "remap leader key
 let mapleader = "\<Space>"
-
 "================ Visual Theme ===============
 colorscheme gruvbox
 set background=dark
 set termguicolors
 let g:gruvbox_contrast_dark = 'hard' 
+
 "================ General remapping ===============
 "remap esc to jk
 inoremap jk <ESC>
 
 "remap leader+w to tab through windows
-nnoremap <Leader>w <C-W><C-W>
+"nnoremap <Leader>w <C-W><C-W>
 "map leader+v to open vertical split
-nnoremap <Leader>v <C-W><C-V>
+"nnoremap <Leader>v <C-W><C-V>
 "map leader+h to open horizontal split
-nnoremap <Leader>h <C-W><C-S>
+"nnoremap <Leader>h <C-W><C-S>
 "map leader+q to close window
-nnoremap <Leader>q <C-W><C-Q>
+"nnoremap <Leader>q <C-W><C-Q>
 
 " Quickly insert an empty new line without entering insert mode
 nnoremap <Leader>o o<Esc>
