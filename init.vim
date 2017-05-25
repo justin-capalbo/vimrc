@@ -3,6 +3,12 @@ execute pathogen#infect()
 "remap leader key
 let mapleader = "\<Space>"
 
+"================ Visual Theme ===============
+colorscheme gruvbox
+set background=dark
+set termguicolors
+let g:gruvbox_contrast_dark = 'hard' 
+"================ General remapping ===============
 "remap esc to jk
 inoremap jk <ESC>
 
@@ -18,6 +24,10 @@ nnoremap <Leader>q <C-W><C-Q>
 " Quickly insert an empty new line without entering insert mode
 nnoremap <Leader>o o<Esc>
 nnoremap <Leader>O O<Esc>
+
+"================ General interface and editing  ===============
+"syntax highlighting
+syntax enable
 
 "set line numbers
 set number
