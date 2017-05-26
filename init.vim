@@ -57,6 +57,19 @@ let g:airline#extensions#tabline#enabled = 1
 " Show filename only
 let g:airline#extensions#tabline#fnamemod = ':t'
 
+" Show ctrlp modes in airline
+let g:airline#extensions#ctrlp#show_adjacent_modes = 1
+
 "================ Ale ===============
 
 let g:ale_echo_msg_format = '%linter% says %s'
+let g:ale_linters = {
+\   'ruby':['ruby'],  
+\   'eruby':[]
+\}
+
+"================ ctrlp ===============
+
+" Set working directory for ctrlp to nearest ancestor with .git/.hg/.svn/.bzr/_dars, then directory of current file.
+let g:ctrlp_working_path_mode = 'ra'
+
