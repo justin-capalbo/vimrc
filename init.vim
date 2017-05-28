@@ -2,7 +2,6 @@ execute pathogen#infect()
 "remap leader key
 let mapleader = "\<Space>"
 
-
 "================ Visual Theme ===============
 
 colorscheme gruvbox
@@ -20,7 +19,7 @@ nnoremap <Leader>o o<Esc>
 nnoremap <Leader>O O<Esc>
 
 " Binding to close a buffer but not actually close the window
-nmap <leader>q :bp <BAR> bd #<CR>
+nmap <leader>q :b# <BAR> bd #<CR>
 
 "================ General interface and editing  ===============
 "syntax highlighting
