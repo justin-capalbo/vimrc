@@ -53,6 +53,9 @@ set nowrap "Don't Wrap lines
 " configure backspace so it acts as it should act
 set backspace=eol,start,indent
 set whichwrap+=<,>,h,l
+
+" disable auto comment insertion
+ +autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 "================ Nerdtree ===============
 
 " Open NERDTree on startup, when no file has been specified
