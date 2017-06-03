@@ -58,7 +58,8 @@ set whichwrap+=<,>,h,l
 
 " Open NERDTree on startup, when no file has been specified
 autocmd VimEnter * if !argc() | NERDTree | endif
-
+" Release ? so we can backwards search
+let NERDTreeMapHelp='<f1>'
 " General 
 let NERDTreeDirArrows = 1
 let NERDTreeMinimalUI = 1
