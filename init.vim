@@ -111,7 +111,7 @@ let g:ale_linters = {
 
 "================ ctrlp ===============
 " Resembles an open file binding
-let g:ctrlp_map = '<c-o>'
+let g:ctrlp_map = '<F2>'
 let g:ctrlp_cmd = 'CtrlP'
 
 " Set working directory for ctrlp to nearest ancestor with .git/.hg/.svn/.bzr/_dars, then directory of current file.
